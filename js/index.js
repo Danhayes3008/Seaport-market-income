@@ -6,4 +6,8 @@ var commodities =
     {name: "sugarcane", gold: 0, stone: 20, wood: 0, iron: 0, fish: 0},
     {name: "wine", gold: 0, stone: 27, wood: 0, iron: 0, fish: 80},
     {name: "flour", gold: 59, stone: 0, wood: 53, iron: 0, fish: 0},
+    {name: "cloth", gold: 0, stone: 0, wood: 0, iron: 10, fish: 0},
+    {name: "oil", gold: 100, stone: 0, wood: 0, iron: 0, fish: 120},
+    {name: "fuel", gold: 200, stone: 80, wood: 0, iron: 0, fish: 0},
+    {name: "sugar", gold: 0, stone: 0, wood: 0, iron: 14, fish: 80},
 ]
