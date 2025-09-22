@@ -24,5 +24,12 @@ function buildCommoditiesTable(data){
         var Wood = data[i].wood * 100;
         var Iron = data[i].iron * 100;
         var Fish = data[i].fish * 100;
+
+        // sets the data to a string so an comma can split up the numbers
+        const formattedGold = Gold.toLocaleString();
+        const formattedStone = Stone.toLocaleString();
+        const formattedWood = Wood.toLocaleString();
+        const formattedIron = Iron.toLocaleString();
+        const formattedFish = Fish.toLocaleString();
     }
 }
