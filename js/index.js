@@ -13,3 +13,16 @@ var commodities =
     {name: "sugar", gold: 0, stone: 0, wood: 0, iron: 14, fish: 80},
 ]
 //#endregion
+
+function buildCommoditiesTable(data){
+    var priceSheet = document.getElementById('commoditiesTable')
+    for (var i = 0; i< data.length; i++){
+
+        // Calculates the amount gained per 100 units sold
+        var Gold = data[i].gold * 100;
+        var Stone = data[i].stone * 100;
+        var Wood = data[i].wood * 100;
+        var Iron = data[i].iron * 100;
+        var Fish = data[i].fish * 100;
+    }
+}
