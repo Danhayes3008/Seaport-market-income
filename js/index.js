@@ -14,7 +14,9 @@ var commodities =
 ]
 //#endregion
 
-function buildCommoditiesTable(data){
+BuildCommoditiesTable(commodities)
+
+function BuildCommoditiesTable(data){
     var priceSheet = document.getElementById('commoditiesTable')
     for (var i = 0; i< data.length; i++){
 
@@ -31,5 +33,16 @@ function buildCommoditiesTable(data){
         const formattedWood = Wood.toLocaleString();
         const formattedIron = Iron.toLocaleString();
         const formattedFish = Fish.toLocaleString();
+
+        // creates the rows based on the data in our array
+        var row = `<tr>
+                    <td>${data[i].name}</td>
+                    <td>${formattedGold}</td>
+                    <td>${formattedStone}</td>
+                    <td>${formattedWood}</td>
+                    <td>${formattedIron}</td>
+                    <td>${formattedFish}</td>
+                  </tr>`
+        priceSheet.innerHTML += row;
     }
 }
