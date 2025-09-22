@@ -1,3 +1,4 @@
+//#region Commodities
 var commodities = 
 [
     {name: "cocoa", gold: 50, stone: 0, wood: 0, iron: 0, fish: 0},
@@ -11,3 +12,4 @@ var commodities =
     {name: "fuel", gold: 200, stone: 80, wood: 0, iron: 0, fish: 0},
     {name: "sugar", gold: 0, stone: 0, wood: 0, iron: 14, fish: 80},
 ]
+//#endregion
