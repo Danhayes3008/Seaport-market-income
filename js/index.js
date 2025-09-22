@@ -14,6 +14,7 @@ var commodities =
 ]
 //#endregion
 
+//#region table functions
 BuildCommoditiesTable(commodities)
 
 function BuildCommoditiesTable(data){
@@ -46,3 +47,4 @@ function BuildCommoditiesTable(data){
         priceSheet.innerHTML += row;
     }
 }
+//#endregion
