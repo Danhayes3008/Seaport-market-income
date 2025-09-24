@@ -7,9 +7,20 @@
 tr{
     height: 30px;
 }
+
+.banner-text{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(72, 184, 49);
+}
+
 .content-table{
     border-collapse: collapse;
-    margin: 25px 0;
+    /* margin: 25px 0; */
     font-size: 0.9em;
     text-transform: capitalize;
     width: 100%;
