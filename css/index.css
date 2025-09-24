@@ -12,8 +12,7 @@ tr{
     margin: 25px 0;
     font-size: 0.9em;
     text-transform: capitalize;
-    min-width: 50%;
-    margin-left: 25%;
+    width: 100%;
     border: solid 1px black;
 }
 
