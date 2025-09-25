@@ -10,7 +10,6 @@ I created this table to help determain what products in the game sells the most.
 To get the data for this tabel I first had to check the market in game for the trade ratio on items sellable there. In order to be used it had to be stored inside an array:
 
 ![Alt text](Images/Source1.png)
-get technical in this section with diagrams and stuff.
 
 Next came the need to create the function that would generate the rows for my table. A method was used to calculate the total amount for each resource you could trade for based on a average of one hundred units sold. 
 
